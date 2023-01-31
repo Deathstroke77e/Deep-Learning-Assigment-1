@@ -16,7 +16,7 @@ The model was trained  for 9 epochs and with a learning rate of 0.001 and with A
 
 # Sigmoid Activation Function:
 
-Sigmoid function is known as the logistic function which helps to normalize the output of any input in the range between 0 to 1.  The main purpose of the activation function is to maintain the output or predicted value in the particular range, which makes the good efficiency and accuracy of the model.
+Sigmoid function is known as the logistic function which helps to normalize the output of any input in the range between 0 to 1. 
 Accuracy on test set - 45% 
 But, I was encountering the problem of vanishing gradient .
 ```
@@ -51,7 +51,7 @@ for epoch in range(9):
 
 # Hyperbolic Tangent Activation Function:
 
-Tanh Activation function is superior then the Sigmoid Activation function because the range of this activation function is higher than the sigmoid activation function. This is the major difference between the Sigmoid and Tanh activation function.
+Tanh Activation function is superior then the Sigmoid Activation function because the range of this activation function is higher than the sigmoid activation function.
 Accuracy on test set - 47%
 ```
 correct=0
@@ -68,7 +68,7 @@ Accuracy:  0.355
 
 # ReLu (Rectified Linear Unit) Activation Function:
 
-ReLu is the best and most advanced activation function right now compared to the sigmoid and TanH because all the drawbacks like Vanishing Gradient Problem is completely removed in this activation function which makes this activation function more advanced compare to other activation function.
+ReLu is the best activation function compared to the sigmoid and TanH because all the drawbacks like Vanishing Gradient Problem is completely removed in this activation function.
 Vanishing gradient issue was resolved and started getting accuracy of >52%.
 ```
 Accuracy:  0.522
