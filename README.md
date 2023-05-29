@@ -1,4 +1,4 @@
-# Deep-Learning-Assigment-1
+# Classification on CIFAR-10 dataset
 Implement a neural network and utilize the CIFAR-10 dataset for the analysis.
 1. Utilize various activation functions like sigmoid, tanh and critique the performance in
 each case.
